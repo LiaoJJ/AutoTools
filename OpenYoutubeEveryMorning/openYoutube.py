@@ -10,7 +10,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 chrome_options = Options()
 # chrome_options.add_encoded_extension("gighmmpiobklfepjocnamgkkbiglidom")
 # chrome_options.add_argument("load-extension=/User/ljj/Library/Application Support/Google/Chrome/Default/Extensions/gighmmpiobklfepjocnamgkkbiglidom")
-chrome_options.add_extension("/Users/ljj/Documents/Courses/CS/LeetCode/Selenium-Scripts/MorningTask/extension_4_25_1_0.crx")
+chrome_options.add_extension("/Users/ljj/Documents/Courses/CS/LeetCode/Selenium-Scripts/OpenYoutubeEveryMorning/extension_4_25_1_0.crx")
 
 with webdriver.Chrome(options=chrome_options) as driver:
     wait = WebDriverWait(driver, 10)
